@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluffy Friends – Soft Toys</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🧸 Fluffy Friends</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Toys</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <button class="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Soft Toys Made With Love 💖</h2>
+  <p>Safe • Cute • Huggable</p>
+</section>
+
+<section id="products" class="products">
+  <h2>Our Toys</h2>
+  <div class="product-grid">
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Teddy">
+      <h3>Teddy Bear</h3>
+      <p>$15</p>
+      <button onclick="addToCart('Teddy Bear')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Bunny">
+      <h3>Fluffy Bunny</h3>
+      <p>$12</p>
+      <button onclick="addToCart('Fluffy Bunny')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Panda">
+      <h3>Panda Plush</h3>
+      <p>$18</p>
+      <button onclick="addToCart('Panda Plush')">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="info">
+  <h2>About Us</h2>
+  <p>
+    Fluffy Friends creates premium soft toys designed to bring happiness,
+    comfort, and smiles to kids and adults alike.
+  </p>
+</section>
+
+<section id="contact" class="info">
+  <h2>Contact</h2>
+  <p>Email: fluffyfriends@gmail.com</p>
+  <p>Phone: +1 234 567 890</p>
+</section>
+
+<footer>
+  <p>© 2026 Fluffy Friends | Made with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
